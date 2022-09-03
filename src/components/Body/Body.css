@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+.body{
+    background-image: url('../../pics/bg-1.jpg');
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+.first {
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.first_first{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.first_second{
+    font-family: 'Silkscreen', cursive;
+}
+
+#hiThere{
+    font-size: 7vw;
+    font-family: 'Secular One', sans-serif;
+}
+
+#namaste{
+    font-size: 5.5vw;
+    font-family: 'Secular One', sans-serif;
+}
+
+.second{
+    margin-right: 15px;
+    margin-top: 150px;
+    width: 35%;
+}
+
+.second > img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1281px) {
+    .first{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width:415px){
+    .body{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content:space-around;
+    }
+    .body:last-child{
+        align-self: center;
+    }
+    .first{
+        margin-top: 50px;
+        width: 80vw;
+        text-overflow: clip;
+        height: 10%;
+    }
+    #hiThere{
+        font-size: 14vw;
+    }
+    #namaste{
+        font-size: 6.5vw;
+    }
+    #iam{
+        font-size: 5vw;
+    }
+    .second{
+        width: 100%;
+    }
+    .second > img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:281px){
+    .first{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+}
