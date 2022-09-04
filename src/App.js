@@ -14,6 +14,33 @@ function App() {
       </div>
       <div className='Footer'>
       <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
       </div>
     </div>
   );
