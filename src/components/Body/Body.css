@@ -3,7 +3,7 @@
 .body{
     background-image: url('../../pics/bg-1.jpg');
     width: 100%;
-    height: 100vh;
+    height:100vh;
     color: white;
     display: flex;
     flex-direction: row;
@@ -45,13 +45,33 @@
 
 .second{
     margin-right: 15px;
-    margin-top: 150px;
+    position: relative;
+    margin-top: 230px;
+    /* margin-top: 150px; */
     width: 35%;
 }
 
 .second > img{
     width: 100%;
     height: auto;
+}
+
+.third{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    text-align: center;
+    border: 5px solid red;
+    border-radius: 25px;
+}
+
+#more{
+    font-family: 'Secular One', sans-serif;
+    font-size: 1vw;
+    opacity: 0.9;
+    color: rgb(80, 8, 146);
+    padding: 5px 5px;
 }
 
 
@@ -104,6 +124,16 @@
     .second > img{
         width: 100%;
         height: auto;
+    }
+    .third{
+        width: fit-content;
+        border: 3px solid red;
+        margin: auto auto;
+        margin-right: 25px;
+    }
+    #more{
+        font-size: 3vw;
+        padding: 2px 4.5px;
     }
 }
 

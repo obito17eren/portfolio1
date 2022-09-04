@@ -76,7 +76,7 @@ function Body() {
       </div>
 
       <div className='third'>
-          <h1>To know more, go to Projects or About or CLICK on my Profile Picture 😇</h1>
+          <h1 id="more">To know more, go to Projects or About or CLICK on my Profile Picture 😇</h1>
       </div>
     
     </div>
